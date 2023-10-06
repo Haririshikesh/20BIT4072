@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <pre>{JSON.stringify({ numbers: a }, null, 2)}</pre>
+        <p>{JSON.stringify({ numbers: a }, null, 2)}</p>
       </div>
     </div>
   );
